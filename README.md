@@ -18,4 +18,4 @@ El usuario puede decidir que usuarios pueden acceder a esa nota con permisos de 
 ![alt text](https://github.com/croko22/dac-security-model/blob/main/docs/image-2.png)
 
 ## Nota con acceso denegado
-![alt text](https://github.com/croko22/dac-security-model/blob/main/docs/image-2.png)
+![alt text](https://github.com/croko22/dac-security-model/blob/main/docs/image-3.png)
