@@ -1,9 +1,4 @@
 {{-- <x-layouts.guest-layout> --}}
-@if (session('error'))
-    <div class="absolute top-10 left-10 ">
-        {{-- <x-error /> --}}
-    </div>
-@endif
 
 <h2 class="text-center">Login</h2>
 <form action="{{ route('login') }}" method="POST" class="mt-6">

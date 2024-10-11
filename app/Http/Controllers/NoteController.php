@@ -42,6 +42,11 @@ class NoteController extends Controller
         // $this->authorize('update', $note);
         Gate::authorize('update', $note);
 
+        $request->validate([
+            'title' => 'required|string|max:255',
+            'content' => 'required|string',
+        ]);
+
         $note->update($request->only('title', 'content'));
         return redirect()->route('notes.show', $note);
     }
